@@ -1,0 +1,11 @@
+--- nmr_calls.F90.orig	2024-04-29 19:47:47
++++ nmr_calls.F90	2024-10-15 09:50:36
+@@ -1945,7 +1945,7 @@
+     rk2a = 0.0d0
+     rk3a = 0.0d0
+ 
+-    do 30 i = 1, 999999
++    do 30 i = 1, 99999999
+       ! provide ability to initiate all 8 groups
+       do ii = 1, 8
+         iat(ii) = 0
