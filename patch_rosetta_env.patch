@@ -1,0 +1,11 @@
+--- main/source/tools/build/site.settings	2024-10-24 15:33:29.000000000 +0200
++++ main/source/tools/build/site.settings	2024-10-24 15:39:54.000000000 +0200
+@@ -31,7 +31,7 @@
+         },
+         "overrides" : {
+ ## Uncomment the following line if your compiler need additional environment variables to function (e.g. license key locations)
+-#            "ENV" : os.environ,
++            "ENV" : os.environ,
+ 
+ ## Uncomment (and adjust) the following lines if you wish to explicitly specify the path to a compiler which isn't the default compiler
+ #            "cxx" : "~/path/to/compiler/bin/g++", # or clang++ or mpiCC or icpc, etc. -- The C++ compiler.
